@@ -1934,7 +1934,7 @@ YouTube Channels WordPress Theme
 
 == Changelog ==
 v2.6.9 - 24-Sept-2019
-* Added Self Hosted Plugin Upadte Functionality.  
+* Added plugin update functionality from git.  
 
 == Changelog ==
 v2.6.8 - 04-Sept-2019

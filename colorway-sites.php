@@ -144,7 +144,7 @@ add_action('admin_notices', 'colorway_sites_lite_tracking_admin_notice');
 
 require ( dirname(__FILE__) . '/colorway-sites-update-checker/plugin-update-checker.php' );
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/MagnetBrains/InkThemes/',
+	'https://github.com/MagnetBrains/colorway-sites',
 	__FILE__,
 	'colorway-sites'
 );

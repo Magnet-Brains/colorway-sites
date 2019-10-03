@@ -124,10 +124,10 @@ Yes! We are working on many more free Elementor website demos. We will showcase 
 
 
 == Changelog ==
-v2.6.9 - 24-Sept-2019
-* Added plugin update functionality from git.  
 
-== Changelog ==
+v2.6.9 - 24-Sept-2019
+* Added plugin update functionality from git.
+
 v2.6.8 - 04-Sept-2019
 * Fixed the admin notice display issue.
 

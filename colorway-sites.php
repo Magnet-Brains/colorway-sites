@@ -92,9 +92,9 @@ function colorway_sites_activation_notice(){
     <div class="updated notice is-dismissible">
         <p style="font-weight:500">Since you are using a multisite network. Kindly, Download the following recommended plugins manually and upload & activate them on your WordPress network sites.</p>
         <table>
-        <tr><td>Colorway Elementor Addons WordPress Plugin</td><td><a href="https://www.inkthemes.com/wp-content/uploads/colorway-addons.zip" class="button-primary">Download</a></td></tr>
-        <tr><td>Appointup WordPress Plugin</td><td><a href="https://www.inkthemes.com/wp-content/uploads/appointup.zip" class="button-primary">Download</a></td></tr>
-        <tr><td>Leadup WordPress Plugin</td><td><a href="https://www.inkthemes.com/wp-content/uploads/leadup.zip" class="button-primary">Download</a></td></tr>
+        <tr><td>Colorway Elementor Addons WordPress Plugin</td><td><a href="https://codeload.github.com/MagnetBrains/colorway-addons/zip/master" class="button-primary">Download</a></td></tr>
+        <tr><td>Appointup WordPress Plugin</td><td><a href="https://codeload.github.com/MagnetBrains/appointup/zip/master" class="button-primary">Download</a></td></tr>
+        <tr><td>Leadup WordPress Plugin</td><td><a href="https://codeload.github.com/MagnetBrains/leadup/zip/master" class="button-primary">Download</a></td></tr>
 </table>
     </div>
     <?php

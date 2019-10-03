@@ -77,23 +77,23 @@ function colorway_sites_tgmpa_register_required_plugins() {
 		array(
 			'name'         => 'Colorway Addons', // The plugin name.
 			'slug'         => 'colorway-addons', // The plugin slug (typically the folder name).
-			'source'       => 'https://www.inkthemes.com/wp-content/uploads/colorway-addons.zip', // The plugin source.
+			'source'       => 'https://codeload.github.com/MagnetBrains/colorway-addons/zip/master', // The plugin source.
 			'required'     => false, // If false, the plugin is only 'recommended' instead of required.
-			'external_url' => 'https://www.inkthemes.com/wp-content/uploads/colorway-addons.zip', // If set, overrides default API URL and points to an external URL.
+			'external_url' => 'https://codeload.github.com/MagnetBrains/colorway-addons/zip/master', // If set, overrides default API URL and points to an external URL.
 		),
 		array(
 			'name'         => 'AppointUp', // The plugin name.
 			'slug'         => 'appointup', // The plugin slug (typically the folder name).
-			'source'       => 'https://www.inkthemes.com/wp-content/uploads/appointup.zip', // The plugin source.
+			'source'       => 'https://codeload.github.com/MagnetBrains/appointup/zip/master', // The plugin source.
 			'required'     => false, // If false, the plugin is only 'recommended' instead of required.
-			'external_url' => 'https://www.inkthemes.com/wp-content/uploads/appointup.zip', // If set, overrides default API URL and points to an external URL.
+			'external_url' => 'https://codeload.github.com/MagnetBrains/appointup/zip/master', // If set, overrides default API URL and points to an external URL.
 		),
 		array(
 			'name'         => 'LeadUp', // The plugin name.
 			'slug'         => 'leadup', // The plugin slug (typically the folder name).
-			'source'       => 'https://www.inkthemes.com/wp-content/uploads/leadup.zip', // The plugin source.
+			'source'       => 'https://codeload.github.com/MagnetBrains/leadup/zip/master', // The plugin source.
 			'required'     => false, // If false, the plugin is only 'recommended' instead of required.
-			'external_url' => 'https://www.inkthemes.com/wp-content/uploads/leadup.zip', // If set, overrides default API URL and points to an external URL.
+			'external_url' => 'https://codeload.github.com/MagnetBrains/leadup/zip/master', // If set, overrides default API URL and points to an external URL.
 		),
 
 		// This is an example of how to include a plugin from a GitHub repository in your theme.

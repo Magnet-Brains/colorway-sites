@@ -3,7 +3,7 @@
  * Plugin Name: Colorway Sites
  * Plugin URI: https://www.inkthemes.com/
  * Description: Import free sites build with Colorway Theme.
- * Version: 2.6.9
+ * Version: 2.7.0
  * Author: InkThemes.com
  * Author URI: https://www.inkthemes.com
  * Text Domain: colorway-sites

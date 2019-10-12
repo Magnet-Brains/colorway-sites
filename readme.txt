@@ -125,6 +125,9 @@ Yes! We are working on many more free Elementor website demos. We will showcase 
 
 == Changelog ==
 
+v2.7.0 - 12-oct-2019
+* Update xml import function.
+
 v2.6.9 - 24-Sept-2019
 * Added plugin update functionality from git.
 

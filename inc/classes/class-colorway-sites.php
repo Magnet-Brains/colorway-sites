@@ -322,11 +322,11 @@ if (!class_exists('Colorway_Sites')) :
                     // in any case we need to store results to avoid repeative calls to remote api
                     if ($prev_activation_cache != $activation_cache)
                         update_option('colorway-sites_license_activation_cache', $activation_cache);
-                    if (!$ret){
-                        $response['message'] = __("Your trial period has been expired. <br/> Click on purchase to updrade.<br/><br/> <button class='button-primary' id='reset_license'>Reset License</button>", "colorway-sites");
-                        $response['status'] = $checker->getCode();
-                        update_option('colorway-sites_license_trial', false);
-                    }else{
+                    if ($checker->getCode() == 'license_expired'){
+                       $response['message'] = __("Your license has been expired. <br/> Click on purchase to updrade.<br/><br/> <button class='button-primary' id='reset_license'>Reset License</button>", "colorway-sites");
+                       $response['status'] = $checker->getCode();
+                       update_option('colorway-sites_license_trial', false);
+                   }else{
                         $response['message'] = __('License Key Already Exists,<br/> Click Import This Site Button<br/><br/>', 'colorway-sites');
                         $response['message'] .= __('Do you want to reset? <button class="button-primary" id="reset_license">Reset License</button>', 'colorway-sites');
                         $response['status'] = 'exists';
@@ -348,7 +348,7 @@ if (!class_exists('Colorway_Sites')) :
                 }*/
             }
             // now second, optional stage - check activation and binding of application     
-           /* $prev_activation_cache = $activation_cache; // store previous value to detect change
+           $prev_activation_cache = $activation_cache; // store previous value to detect change
             $checker = new Am_LicenseChecker($license_key, 'https://www.inkthemes.com/members/softsale/api', sha1('INKINK'));
             $ret = empty($activation_cache) ?
                     $checker->activate($activation_cache) : // explictly bind license to new installation
@@ -360,7 +360,7 @@ if (!class_exists('Colorway_Sites')) :
                 $response['message'] = "Activation failed: (" . $checker->getCode() . ") " . $checker->getMessage();
            // if ($checker->getCode() == 'ok')
                 $response['status'] = $checker->getCode();
-                }*/
+                }
             echo json_encode($response);
             die();
         }

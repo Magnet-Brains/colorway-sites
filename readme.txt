@@ -4,7 +4,7 @@ Tags: Colorway, elementor, importer, templates, builder
 Requires at least: 4.8 or higher
 Requires PHP: 5.6+
 Tested up to: 5.2.3
-Stable tag: 2.6
+Stable tag: 2.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,6 +124,9 @@ Yes! We are working on many more free Elementor website demos. We will showcase 
 
 
 == Changelog ==
+
+v2.7.2 - 21-aug-2020
+* Fixed the admin-page.js file's issues.
 
 v2.7.1 - 15-oct-2019
 * Updated license key functionality.

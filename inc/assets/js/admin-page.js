@@ -721,7 +721,7 @@ var ColorwaySitesAjaxQueue = (function () {
                     .find('.install-now')
                     .addClass('updating-message')
                     .removeClass('install-now')
-                    .text(wp.updates.l10n.installing);
+                    .text('Installing');
 
             jQuery('.required-plugins')
                     .find('.activate-now')
@@ -846,7 +846,7 @@ var ColorwaySitesAjaxQueue = (function () {
             if (typeof disabled !== 'undefined' && disabled === 'disabled' || $this.hasClass('disabled')) {
 
                 $('.colorway-demo-import').addClass('updating-message installing')
-                        .text(wp.updates.l10n.installing);
+                        .text('Installing');
 
                 /**
                  * Process Bulk Plugin Install & Activate
@@ -1402,7 +1402,7 @@ var ColorwaySitesAjaxQueue = (function () {
                                     output += '	data-init="' + plugin + '/' + response.data.filename[index] + '.php"';
                                     output += '	data-slug="' + plugin + '"';
                                     output += '	data-name="' + plugin + '">';
-                                    output += wp.updates.l10n.activatePlugin;
+                                    output += 'Activate';
                                     output += '	</button>';
                                     // output += '	<span class="dashicons-no dashicons"></span>';
                                     output += '</div>';
